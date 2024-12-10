@@ -5,6 +5,7 @@ from .models import Photo
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404
 import mimetypes
+from pymongo import MongoClient
 
 
 class PhotoUploadAPIView(APIView):
@@ -32,7 +33,12 @@ class PhotoRetrieveAPIView(APIView):
 
         response = HttpResponse(photo.image, content_type=content_type)
 
-        response['Content-Disposition'] = f'inline; filename="photo_{photo_id}.{file_extension}"'
+        response['Content-Disposition'] = f'inline; filename="photo_{photo_id}.{file_extension}'
 
-        return response
 
+class DiseaseListAPIView(APIView):
+    def get(self, request):
+        client = MongoClient("mongodb://localhost:27017/")
+        db = client["zpi"]
+        diseases = list(db["zpi"].find({}, {"_id": 0}))
+        return Response(diseases)
