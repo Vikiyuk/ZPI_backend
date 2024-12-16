@@ -8,6 +8,14 @@ import mimetypes
 from pymongo import MongoClient
 
 
+class DiseaseListAPIView(APIView):
+    def get(self, request):
+        client = MongoClient("mongodb://localhost:27017/")
+        db = client["zpi"]
+        diseases = list(db["zpi"].find({}, {"_id": 0}))
+        return Response(diseases)
+
+
 class PhotoUploadAPIView(APIView):
     def post(self, request):
         image = request.FILES.get('image')
@@ -35,10 +43,3 @@ class PhotoRetrieveAPIView(APIView):
 
         response['Content-Disposition'] = f'inline; filename="photo_{photo_id}.{file_extension}'
 
-
-class DiseaseListAPIView(APIView):
-    def get(self, request):
-        client = MongoClient("mongodb://localhost:27017/")
-        db = client["zpi"]
-        diseases = list(db["zpi"].find({}, {"_id": 0}))
-        return Response(diseases)
