@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "675fdb177d1115b70927eaec"
+  },
+  "result": "melanoma",
+  "created_at": {
+    "$date": "2024-12-16T07:47:35.499Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675fdb535528604d0f2fb64f"
+  },
+  "result": "melanoma",
+  "created_at": {
+    "$date": "2024-12-16T07:48:35.794Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675fdba7a1ef0b8412f3f487"
+  },
+  "result": "melanoma",
+  "created_at": {
+    "$date": "2024-12-16T07:49:59.431Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675fe101b8435d228a9cd35a"
+  },
+  "result": "basal cell carcinoma",
+  "created_at": {
+    "$date": "2024-12-16T08:12:49.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675feb0c4d02a72702fc6b64"
+  },
+  "result": "basal cell carcinoma",
+  "created_at": {
+    "$date": "2024-12-16T08:55:40.887Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675feb44f4106e6fd4021f2d"
+  },
+  "result": "basal cell carcinoma",
+  "created_at": {
+    "$date": "2024-12-16T08:56:36.630Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675feb47f4106e6fd4021f2e"
+  },
+  "result": "basal cell carcinoma",
+  "created_at": {
+    "$date": "2024-12-16T08:56:39.366Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675feb5af4106e6fd4021f2f"
+  },
+  "result": "nevus",
+  "created_at": {
+    "$date": "2024-12-16T08:56:58.076Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675fed7c095ed844df17ebcb"
+  },
+  "result": "nevus",
+  "created_at": {
+    "$date": "2024-12-16T09:06:03.999Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ff0bfccf3a40d5328a5e5"
+  },
+  "result": "nevus",
+  "created_at": {
+    "$date": "2024-12-16T09:19:59.067Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ff9f9b8e9353c5abb0475"
+  },
+  "result": "melanoma",
+  "created_at": {
+    "$date": "2024-12-02T07:47:35.499Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ffa00b8e9353c5abb0476"
+  },
+  "result": "melanoma",
+  "created_at": {
+    "$date": "2024-12-01T07:47:35.499Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ffa05b8e9353c5abb0477"
+  },
+  "result": "melanoma",
+  "created_at": {
+    "$date": "2024-11-16T07:47:35.499Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ffa11b8e9353c5abb0478"
+  },
+  "result": "nevus",
+  "created_at": {
+    "$date": "2024-12-06T08:56:58.076Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ffb39b8e9353c5abb047a"
+  },
+  "result": "melanoma",
+  "created_at": {
+    "$date": "2024-12-15T07:49:59.431Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ffb46b8e9353c5abb047b"
+  },
+  "result": "nevus",
+  "created_at": {
+    "$date": "2024-12-02T09:06:03.999Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "676005fb046257f582843518"
+  },
+  "result": "nevus",
+  "created_at": {
+    "$date": "2024-12-16T10:50:35.314Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67600603046257f582843519"
+  },
+  "result": "nevus",
+  "created_at": {
+    "$date": "2024-12-16T10:50:43.107Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67600616046257f58284351a"
+  },
+  "result": "basal cell carcinoma",
+  "created_at": {
+    "$date": "2024-12-16T10:51:02.470Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6760061d046257f58284351b"
+  },
+  "result": "basal cell carcinoma",
+  "created_at": {
+    "$date": "2024-12-16T10:51:09.282Z"
+  }
+}]

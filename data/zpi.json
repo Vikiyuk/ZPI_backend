@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6758593265a11c76c2652f2f"
+  },
+  "name": "Czerniak",
+  "description": "Czerniak to rodzaj nowotworu skóry, który rozwija się z melanocytów – komórek produkujących barwnik skóry. Jest to najgroźniejsza forma raka skóry ze względu na skłonność do rozprzestrzeniania się na inne części ciała."
+},
+{
+  "_id": {
+    "$oid": "6758593865a11c76c2652f31"
+  },
+  "name": "Znamię",
+  "description": "Znamię, znane również jako pieprzyk, to łagodny wzrost na skórze, który powstaje z melanocytów. Większość znamion jest nieszkodliwa, ale niektóre mogą przekształcić się w czerniaka."
+},
+{
+  "_id": {
+    "$oid": "6758593e65a11c76c2652f33"
+  },
+  "name": "Rak podstawnokomórkowy",
+  "description": "Rak podstawnokomórkowy (BCC) jest najczęstszym typem raka skóry. Zwykle pojawia się jako mały, błyszczący guzek lub grudka na skórze i jest najczęściej spowodowany długotrwałą ekspozycją na promieniowanie UV."
+}]
